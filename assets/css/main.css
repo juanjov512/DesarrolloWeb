@@ -1,0 +1,89 @@
+body {
+  background: rgb(221, 221, 221);
+}
+
+#barra ul {
+  list-style-type: none;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+}
+
+#barra li {
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#barra li:hover {
+  background-color: rgb(179, 28, 86);
+  transform: scale(1.1, 1.1);
+}
+
+#barra li:active {
+  background-color: rgb(110, 10, 69);
+}
+
+#barra a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+header {
+  margin: 10px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.521);
+  text-align: center;
+  border-radius: 10px;
+  background-image: url("/public/images/auto10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  text-justify: initial;
+}
+
+header h1 {
+  padding: 20px;
+  font-size: 50px;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.801);
+  color: #fff;
+}
+
+header p {
+  color: #fff;
+  font-size: 16px;
+  text-shadow: 0px 2px 3px black;
+}
+
+#fondo {
+  background-image: url(/public/images/auto08.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.521);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 10px;
+  border-radius: 10px;
+  height: 60vh;
+}
+
+#nosotros {
+  text-align: center;
+  width: 700px;
+  height: 400px;
+  padding: 10px;
+  color: rgb(59, 58, 58);
+  background-color: rgba(255, 255, 255, 0.726);
+  transition-delay: 0.2s;
+}
