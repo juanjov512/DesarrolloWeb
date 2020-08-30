@@ -1,0 +1,93 @@
+body {
+  background: rgb(221, 221, 221);
+}
+
+#barra ul {
+  list-style-type: none;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+}
+
+#barra li {
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#barra li:hover {
+  background-color: rgb(179, 28, 86);
+  transform: scale(1.1, 1.1);
+}
+
+#barra li:active {
+  background-color: rgb(110, 10, 69);
+}
+
+#barra a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.formulario {
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(223, 218, 218);
+  width: 70vh;
+}
+
+.formulario form {
+  display: block;
+  margin-top: 0em;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulario textarea {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulario button {
+  width: 100%;
+  border: 1px solid rgb(170, 0, 43);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 14px 20px;
+  margin: 8px 0;
+  color: white;
+  background-color: rgb(187, 25, 79);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  background-image: url(/public/images/fondo.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  margin-top: 70px;
+  padding: 100px;
+}

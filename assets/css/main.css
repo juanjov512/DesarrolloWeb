@@ -43,7 +43,7 @@ header {
   margin: 10px;
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.521);
   text-align: center;
-  border-radius: 10px;
+  border-radius: 7px;
   background-image: url("/public/images/auto10.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +66,7 @@ header p {
 }
 
 #fondo {
-  background-image: url(/public/images/auto08.jpg);
+  background-image: url(/public/images/auto01.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.521);
@@ -74,7 +74,7 @@ header p {
   align-items: center;
   justify-content: center;
   margin: 60px 10px;
-  border-radius: 10px;
+  border-radius: 7px;
   height: 60vh;
 }
 
@@ -84,6 +84,15 @@ header p {
   height: 400px;
   padding: 10px;
   color: rgb(59, 58, 58);
+  overflow: auto;
   background-color: rgba(255, 255, 255, 0.726);
   transition-delay: 0.2s;
+}
+
+#nosotros h2 {
+  font-size: 30px;
+}
+
+#nosotros p {
+  font-size: 17px;
 }
